@@ -12,21 +12,21 @@ Foundation is an easy to use, powerful, and flexible framework for building prot
 1. Download the files and extract them to you project's desired folder
 2. Add the following code to your application configuration:
 
-~~~
-[php]
-...
-'preload'=>array(
-    .....
-    'foundation', // preload the foundation component
-),
-'components'=>array(
-    .....
-     // assuming you extracted foundation under extensions
-    'foundation' => array("class" => "ext.foundation.components.Foundation"),
-    
-),
-...
-~~~
+    ~~~
+    [php]
+    ...
+    'preload'=>array(
+        .....
+        'foundation', // preload the foundation component
+    ),
+    'components'=>array(
+        .....
+         // assuming you extracted foundation under extensions
+        'foundation' => array("class" => "ext.foundation.components.Foundation"),
+        
+    ),
+    ...
+    ~~~
 
 3. Start using it, check the documentation on using [forms](http://foundation3.oakwebdev.com/index.php?r=site/forms "forms"), and [UI Components](http://foundation3.oakwebdev.com/index.php?r=site/ui "UI Elements")
 
